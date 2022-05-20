@@ -1,0 +1,46 @@
+html,body{
+  height: 100%;
+  font-family: 'Microsoft YaHei';
+  color: #333;
+  background-color: #fff;
+  font-size: 10px;
+}
+html,body,#root,.App{
+  height: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "iconfont"; /* Project id 2669345 */
+  src: url('//at.alicdn.com/t/font_2669345_4ncf01j553j.woff2?t=1626100807012') format('woff2'),
+       url('//at.alicdn.com/t/font_2669345_4ncf01j553j.woff?t=1626100807012') format('woff'),
+       url('//at.alicdn.com/t/font_2669345_4ncf01j553j.ttf?t=1626100807012') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zixun:before {
+  content: "\e6c6";
+}
+
+.icon-wode:before {
+  content: "\e601";
+}
+
+.icon-leida:before {
+  content: "\e614";
+}
+
+.icon-yemian1:before {
+  content: "\e600";
+}

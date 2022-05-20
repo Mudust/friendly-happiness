@@ -1,0 +1,33 @@
+.group-item{
+  .desc{
+    .title{
+      font-weight: bold;
+      margin-left: 0;
+    }
+    .info{
+      color: #ccc;
+    }
+  }
+  .imgicon{
+    width: 65px;
+  }
+}
+
+
+.am-grid{
+  background-color: #eee;
+  .am-flexbox{
+    background-color: inherit;
+  }
+  .am-flexbox-align-stretch{
+    margin-bottom: 10px;
+    .am-grid-item{
+      background: #fff;
+    }
+    .am-grid-item:first-child{
+      margin-right: 10px;
+    }
+  }
+
+}
+

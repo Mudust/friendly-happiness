@@ -1,0 +1,16 @@
+.group {
+  width: 100%;
+  display: flex;
+  background-color: #eee;
+  .title{
+  margin-left: 20px;
+   width: 30%;
+  }
+  .more{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2rem;
+  }
+}
